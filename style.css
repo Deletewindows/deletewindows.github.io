@@ -340,27 +340,42 @@ body {
     margin-bottom: 40px;
 }
 
-.contact-button {
+.social-links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.social-button {
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    background: var(--accent);
-    color: var(--bg-primary);
-    padding: 15px 30px;
+    padding: 15px 25px;
     border-radius: 50px;
     text-decoration: none;
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1rem;
     transition: all 0.3s ease;
 }
 
-.contact-button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.2);
+.social-button.telegram {
+    background: #0088cc;
+    color: white;
 }
 
-.tg-icon {
-    font-size: 1.3rem;
+.social-button.discord {
+    background: #5865F2;
+    color: white;
+}
+
+.social-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.social-icon {
+    font-size: 1.2rem;
     font-weight: 700;
 }
 

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="cursor"></div>
+    
+    <nav class="navbar">
+        <div class="nav-brand">DARK</div>
+        <div class="nav-menu">
+            <a href="#home" class="nav-link">Главная</a>
+            <a href="#about" class="nav-link">О нас</a>
+            <a href="#work" class="nav-link">Работы</a>
+            <a href="#contact" class="nav-link">Контакты</a>
+        </div>
+        <div class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="line">Создаю сайты</span>
+                    <span class="line">для вашего бизнеса</span>
+                </h1>
+                <p class="hero-subtitle">Веб-разработка с фокусом на результат и качество</p>
+                <button class="cta-button">Смотреть портфолио</button>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="orbit-container">
+                    <div class="orbit-center"></div>
+                    <div class="orbit-item orbit-1"></div>
+                    <div class="orbit-item orbit-2"></div>
+                    <div class="orbit-item orbit-3"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">Обо мне</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>Профессиональная разработка веб-сайтов любой сложности. От лендингов до сложных веб-приложений. Каждый проект создаю с вниманием к деталям и современным технологиям.</p>
+                        <div class="stats">
+                            <div class="stat">
+                                <span class="stat-number" data-target="7">0</span>
+                                <span class="stat-label">Проектов</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number" data-target="3">0</span>
+                                <span class="stat-label">Довольных клиентов</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number" data-target="1">0</span>
+                                <span class="stat-label">Год опыта</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-visual">
+                        <div class="gradient-box"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Связаться со мной</h2>
+                <div class="contact-content">
+                    <p class="contact-text">Готов обсудить ваш проект? Напишите мне в Telegram</p>
+                    <a href="https://t.me/base_channels" target="_blank" class="contact-button">
+                        <span class="tg-icon">@</span>
+                        @DeleteWindows
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="work">
+            <div class="container">
+                <h2 class="section-title">Мои работы</h2>
+                <div class="work-grid">
+                    <div class="work-item">
+                        <div class="work-image" style="background: url('https://picsum.photos/seed/corporate/400/250.jpg') center/cover;">
+                            <div class="work-overlay"></div>
+                        </div>
+                        <h3>Корпоративный сайт</h3>
+                        <p>Современный дизайн для IT компании</p>
+                    </div>
+                    <div class="work-item">
+                        <div class="work-image" style="background: url('https://picsum.photos/seed/ecommerce/400/250.jpg') center/cover;">
+                            <div class="work-overlay"></div>
+                        </div>
+                        <h3>Интернет-магазин</h3>
+                        <p>Полнофункциональная платформа e-commerce</p>
+                    </div>
+                    <div class="work-item">
+                        <div class="work-image" style="background: url('https://static.tildacdn.net/tild3135-3236-4166-b436-643330313831/-1.gif') center/cover;">
+                            <div class="work-overlay"></div>
+                        </div>
+                        <h3>Лендинг</h3>
+                        <p>Эффективная посадочная страница для стартапа</p>
+                    </div>
+                    <div class="work-item">
+                        <div class="work-image" style="background: url('https://picsum.photos/seed/portal/400/250.jpg') center/cover;">
+                            <div class="work-overlay"></div>
+                        </div>
+                        <h3>Информационный портал</h3>
+                        <p>Новостной сайт с системой управления контентом</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="gradient-bg">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Dark Portfolio. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
